@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Elite Party Girls</title>
 	<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,500,300i,400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="resource/css/style.css">
@@ -17,11 +17,11 @@
 			<div class="row">
 				<img src="resource/img/logo-white.png" alt="white logo" class="logo">
 				<ul class="main-nav">
-					<li><a href="#about">About</a></li>
-					<li><a href="#steps">How it works</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="/Signup.html">Sign up</a></li>
-					<li><a href="/Login.html">Log in</a></li>
+					<li><a href="#about">How It Works</a></li>
+					<li><a href="#steps">Prices</a></li>
+					<li><a href="#contact">About</a></li>
+					<li><a href="/Signup.html">Contact</a></li>
+					<li><a href="Now Hiring">Now Hiring</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -221,16 +221,15 @@
 			<div class="col span-1-of-3">
 				<div class="plan-box">
 					<div>
-						<h3>Premium</h3>
-						<p class="plan-price">$399 <span>/ booking</span></p>
-						<p class="plan-price-meal">That’s only 13.30$ per meal</p>
+						<h3>2 Girl fantasy show</h3>
+						<p class="plan-price">$600 <span>/ booking</span></p>
 					</div>
 					<div>
 						<ul>
-							<li><i class="icon ion-md-checkmark icon-small"></i>1 meal every day</li>
-							<li><i class="icon ion-md-checkmark icon-small"></i>Order 24/7</li>
-							<li><i class="icon ion-md-checkmark icon-small"></i>Access to newest creations</li>
-							<li><i class="icon ion-md-checkmark icon-small"></i>Free delivery</li>
+							<li><i class="icon ion-md-checkmark icon-small"></i>1&mdash;2+ hours</li>
+							<li><i class="icon ion-md-checkmark icon-small"></i>Book 24/7</li>
+							<li><i class="icon ion-md-checkmark icon-small"></i>2 girls of your choice</li>
+							<li><i class="icon ion-md-checkmark icon-small"></i>Bottle Champgain/toys</li>
 						</ul>
 					</div>
 					<div>
@@ -241,16 +240,15 @@
 			<div class="col span-1-of-3">
 				<div class="plan-box">
 					<div>
-						<h3>Pro</h3>
-						<p class="plan-price">$149 <span>/ booking</span></p>
-						<p class="plan-price-meal">That’s only 14.90$ per meal</p>
+						<h3>Fantasy show</h3>
+						<p class="plan-price">$330 <span>/ booking</span></p>
 					</div>
 					<div>
 						<ul>
-							<li><i class="icon ion-md-checkmark icon-small"></i>1 meal 10 days/month</li>
-							<li><i class="icon ion-md-checkmark icon-small"></i>Order 24/7</li>
-							<li><i class="icon ion-md-checkmark icon-small"></i>Access to newest creations</li>
-							<li><i class="icon ion-md-checkmark icon-small"></i>Free delivery</li>
+							<li><i class="icon ion-md-checkmark icon-small"></i>1&mdash;2+ hours</li>
+							<li><i class="icon ion-md-checkmark icon-small"></i>Book 24/7</li>
+							<li><i class="icon ion-md-checkmark icon-small"></i>1 girl of your choice</li>
+							<li><i class="icon ion-md-checkmark icon-small"></i>Toys included</li>
 						</ul>
 					</div>
 					<div>
@@ -261,16 +259,15 @@
 			<div class="col span-1-of-3">
 				<div class="plan-box">
 					<div>
-						<h3>Starter</h3>
-						<p class="plan-price">$100 <span>/ booking</span></p>
-						<p class="plan-price-meal">That’s only 13.30$ per meal</p>
+						<h3>Standard show</h3>
+						<p class="plan-price">$200 <span>/ booking</span></p>
 					</div>
 					<div>
 						<ul>
-							<li><i class="icon ion-md-checkmark icon-small"></i>1 meal</li>
-							<li><i class="icon ion-md-checkmark icon-small"></i>Order from 8 am to 12 pm</li>
-							<li><i class="icon ion-md-close icon-small"></i></li>
-							<li><i class="icon ion-md-checkmark icon-small"></i>Free delivery</li>
+							<li><i class="icon ion-md-checkmark icon-small"></i>30&mdash;45+ minutes</li>
+							<li><i class="icon ion-md-checkmark icon-small"></i>Book 24/7</li>
+							<li><i class="icon ion-md-checkmark icon-small"></i>1 girl of your choice</li>
+							<li><i class="icon ion-md-checkmark icon-small"></i>Box of chocolate</li>
 						</ul>
 					</div>
 					<div class="btn-plan">
@@ -286,11 +283,58 @@
 		</div>
 		<div class="row">
 			<form method="POST" action="#">
-				<div class="col span-1-of-3">
-
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label for="name">Name</label>
+					</div>
+					<div class="col span-2-of-3">
+						<input id="name" type="text" name="name" placeholder="Your name" required>
+					</div>
 				</div>
-				<div class="col span-2-of-3">
-
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label for="email">Email</label>
+					</div>
+					<div class="col span-2-of-3">
+						<input id="email" type="email" name="email" placeholder="Your email" required>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label for="find-us">How did you find us?</label>
+					</div>
+					<div class="col span-2-of-3">
+						<select name="find-us" id="find-us">
+							<option value="select" selected>Select one</option>
+							<option value="friends">Friends</option>
+							<option value="search-engine">Search engines</option>
+							<option value="advertisments">Advertisments</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label>Newsletter</label>
+					</div>
+					<div class="col span-2-of-3">
+						<input id="news" type="checkbox" name="news" checked> <span class="sub">Subscribe</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label>Let us know what you think</label>
+					</div>
+					<div class="col span-2-of-3">
+						<textarea name="message" placeholder="Your message"></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label>&nbsp;</label>
+					</div>
+					<div class="col span-2-of-3">
+						<input type="submit" value="Submit">
+					</div>
 				</div>
 			</form>
 		</div>
